@@ -33,7 +33,7 @@ export const projects = [
         original: "images/projects/sleet.webp",
         loading: "lazy",
         originalAlt: "sleet",
-      }
+      },
     ],
     tags: ["PHP", "WordPress", "JavaScript", "HTML", "SCSS"],
     id: 6,
@@ -208,37 +208,44 @@ export const projects = [
     imageWebp: "images/webps/React-test Chat Room Intro dark.webp",
     images: [
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro dark.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room Intro dark.webp",
         loading: "lazy",
         originalAlt: "Chat Room Intro dark",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro light.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room Intro light.webp",
         loading: "lazy",
         originalAlt: "Chat Room Intro light",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat dark.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room User Chat dark.webp",
         loading: "lazy",
         originalAlt: "Chat Room User Chat dark",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat light.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room User Chat light.webp",
         loading: "lazy",
         originalAlt: "Chat Room User Chat light",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User extra options dark.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room User extra options dark.webp",
         loading: "lazy",
         originalAlt: "Chat Room User extra options dark",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info dark.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room User Info dark.webp",
         loading: "lazy",
         originalAlt: "Chat Room User Info dark",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info light.webp",
+        original:
+          "images/projects/ReactTestChatRoom/React-test Chat Room User Info light.webp",
         loading: "lazy",
         originalAlt: "Chat Room User Info light",
       },
@@ -259,9 +266,121 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Starting my journey as a Junior web developer" },
-  { year: 2018, text: "Working as a front-end developer" },
-  { year: 2019, text: "Working as a full stack developer" },
-  { year: 2021, text: "Diving completely into ReactJS World" },
-  { year: 2022, text: "Starting my journey as a Next.js developer" },
+  {
+    year: 2009,
+    text: "Iniciei minha jornada como Desenvolvedor Web Júnior na Secretaria de Gestão Administrativa do Acre",
+  },
+  {
+    year: 2010,
+    text: "Trabalhei como Desenvolvedor Front-End no Tribunal de Justiça do Estado do Acre",
+  },
+  {
+    year: 2014,
+    text: "Transitei para o cargo de Analista de Sistemas e Suporte no Tribunal Regional do Trabalho da 9ª Região",
+  },
+  {
+    year: 2019,
+    text: "Tornei-me um Desenvolvedor FullStack no Tribunal Regional do Trabalho da 9ª Região",
+  },
+  {
+    year: 2020,
+    text: "Comecei a trabalhar como consultor independete em diversos projetos",
+  },
+  {
+    year: 2023,
+    text: "Imersão completa no mundo do ReactJS e início da jornada como desenvolvedor Next.js",
+  },
 ];
+
+export const softSkills = [
+  {
+    title: "Comunicação eficaz",
+    description:
+      "Capacidade de transmitir informações de maneira clara e concisa, tanto oralmente quanto por escrito, de forma a manter o público interessado e envolvido. Capacidade de ouvir ativamente e fazer perguntas para entender melhor as necessidades dos clientes e colegas de trabalho.",
+    image: "images/jpgs/problem.jpg",
+    images: [
+          {
+            original: "images/projects/ClickColour/hex-color-1.jpg",
+            loading: "lazy",
+            originalAlt: "hex-color-1",
+          },
+          {
+            original: "images/projects/ClickColour/hex-color-2.jpg",
+            loading: "lazy",
+            originalAlt: "hex-color-2",
+          },
+        ],
+        tags: ["JavaScript", "CSS", "HTML"],
+        id: 1,
+        order: 100,
+        mainType: "javascript",
+  },
+  {
+    title: "Trabalho em equipe",
+    description:
+      "Capacidade de trabalhar efetivamente em uma equipe para atingir metas e objetivos compartilhados. Capacidade de construir relacionamentos positivos e produtivos com colegas de trabalho e clientes.",
+    image: "images/jpgs/equipe.jpg",
+    images: [
+      {
+        original: "images/projects/ClickColour/hex-color-1.jpg",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/ClickColour/hex-color-2.jpg",
+        loading: "lazy",
+        originalAlt: "hex-color-2",
+      },
+    ],
+    tags: ["JavaScript", "CSS", "HTML"],
+    id: 1,
+    order: 100,
+    mainType: "javascript",
+  },
+  {
+    title: "Resolução de problemas",
+    description:
+      "Capacidade de identificar e resolver problemas de maneira eficiente usando lógica, análise e criatividade. Capacidade de aprender rapidamente novas habilidades e conceitos e aplicá-los de maneira eficaz.",
+    image: "images/jpgs/problem.jpg",
+    images: [
+      {
+        original: "images/projects/ClickColour/hex-color-1.jpg",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/ClickColour/hex-color-2.jpg",
+        loading: "lazy",
+        originalAlt: "hex-color-2",
+      },
+    ],
+    tags: ["JavaScript", "CSS", "HTML"],
+    id: 1,
+    order: 100,
+    mainType: "javascript",
+  },
+];
+
+// {
+//   title: "Click Colour",
+//   description:
+//     "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
+//   image: "images/jpgs/hex-color-1.jpg",
+//   imageWebp: "images/webps/hex-color-1.webp",
+//   images: [
+//     {
+//       original: "images/projects/ClickColour/hex-color-1.jpg",
+//       loading: "lazy",
+//       originalAlt: "hex-color-1",
+//     },
+//     {
+//       original: "images/projects/ClickColour/hex-color-2.jpg",
+//       loading: "lazy",
+//       originalAlt: "hex-color-2",
+//     },
+//   ],
+//   tags: ["JavaScript", "CSS", "HTML"],
+//   id: 1,
+//   order: 100,
+//   mainType: "javascript",
+// },

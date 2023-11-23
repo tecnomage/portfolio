@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            Spring,Node and 
           </ListParagraph>
         </ListContainer>
       </ListItem>
