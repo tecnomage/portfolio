@@ -36,8 +36,7 @@ const SoftSkillCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, images } =
-    item;
+  const { title, description, tags, image, imageWebp, images } = item;
 
   return (
     <motion.div
@@ -85,11 +84,6 @@ const SoftSkillCard = ({ item }) => {
         </TagList>
       </div>
     </motion.div>
-  );
-  return(
-    <div>
-      oi
-    </div>
   );
 };
 

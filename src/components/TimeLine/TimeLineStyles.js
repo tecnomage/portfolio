@@ -143,6 +143,17 @@ export const CarouselButtons = styled.div`
     }
 `
 
+export const timeLine = 
+    styled.div`
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: red ;
+    `
+    
+    
+
 export const CarouselButton = styled.button`
     box-sizing: border-box;
     background: none;
