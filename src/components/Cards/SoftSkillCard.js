@@ -73,12 +73,14 @@ const SoftSkillCard = ({ item }) => {
         <Hr />
       </TitleContent>
       <CardInfo className="card-info">{description}</CardInfo>
+      {/* //TODO remover o footer */}
       <div className="card-footer">
         <TitleContent style={{ marginTop: "20px" }}>
           <b>Stack</b>
         </TitleContent>
         <TagList>
           {tags.map((t, i) => {
+          
             return <Tag key={i}>{t}</Tag>;
           })}
         </TagList>

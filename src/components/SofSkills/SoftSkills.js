@@ -17,11 +17,11 @@ const SoftSkills = () => {
         {softSkills
           .sort((a, b) => a.order - b.order)
           .map((card) => (
-            // {console.log(card);}
-            <SoftSkillCard item={card} />
+            // console.log(card)
+             <SoftSkillCard item={card} key={card.id}/>
           ))
-          // // key={card.id}
-
+          
+          //indica quantos itens serão exibidos  
           .slice(0, 3)}
       </GridContainer>
     </Section>

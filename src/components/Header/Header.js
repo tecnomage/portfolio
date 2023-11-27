@@ -36,13 +36,8 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link href="#projects">
-            <NavLink>Projects</NavLink>
-          </Link>
-        </li>
-        <li>
           <Link href={route === "/all-projects" ? "/#tech" : "#tech"}>
-            <NavLink>Technologies</NavLink>
+            <NavLink>Tecnologias</NavLink>
           </Link>
         </li>
         <li>

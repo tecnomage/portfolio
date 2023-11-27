@@ -288,7 +288,7 @@ export const TimeLineData = [
   },
   {
     year: 2023,
-    text: "Imersão completa no mundo do ReactJS e início da jornada como desenvolvedor Next.js",
+    text: "início da jornada como desenvolvedor Next.js",
   },
 ];
 
@@ -297,7 +297,7 @@ export const softSkills = [
     title: "Comunicação eficaz",
     description:
       "Capacidade de transmitir informações de maneira clara e concisa, tanto oralmente quanto por escrito, de forma a manter o público interessado e envolvido. Capacidade de ouvir ativamente e fazer perguntas para entender melhor as necessidades dos clientes e colegas de trabalho.",
-    image: "images/jpgs/problem.jpg",
+    image: "images/jpgs/comunication.jpg",
     images: [
           {
             original: "images/projects/ClickColour/hex-color-1.jpg",
@@ -311,7 +311,7 @@ export const softSkills = [
           },
         ],
         tags: ["JavaScript", "CSS", "HTML"],
-        id: 1,
+        id: 11,
         order: 100,
         mainType: "javascript",
   },
@@ -319,7 +319,7 @@ export const softSkills = [
     title: "Trabalho em equipe",
     description:
       "Capacidade de trabalhar efetivamente em uma equipe para atingir metas e objetivos compartilhados. Capacidade de construir relacionamentos positivos e produtivos com colegas de trabalho e clientes.",
-    image: "images/jpgs/equipe.jpg",
+    image: "images/jpgs/meeting.jpg",
     images: [
       {
         original: "images/projects/ClickColour/hex-color-1.jpg",
@@ -333,15 +333,15 @@ export const softSkills = [
       },
     ],
     tags: ["JavaScript", "CSS", "HTML"],
-    id: 1,
+    id: 2,
     order: 100,
     mainType: "javascript",
   },
-  {
-    title: "Resolução de problemas",
+   {
+    title: "Pensamento critico e resolução de problemas",
     description:
-      "Capacidade de identificar e resolver problemas de maneira eficiente usando lógica, análise e criatividade. Capacidade de aprender rapidamente novas habilidades e conceitos e aplicá-los de maneira eficaz.",
-    image: "images/jpgs/problem.jpg",
+      `Ser capaz de analisar informações, pensar de forma criativa e resolver problemas de maneira eficiente são habilidades valiosas em qualquer função. Isso inclui a capacidade de tomar decisões fundamentadas,lidar com desafios de forma proativa e encontrar soluções inovadoras para problemas complexos.`,
+    image: "images/jpgs/problem_solver.jpg",
     images: [
       {
         original: "images/projects/ClickColour/hex-color-1.jpg",
@@ -353,34 +353,12 @@ export const softSkills = [
         loading: "lazy",
         originalAlt: "hex-color-2",
       },
+      
     ],
     tags: ["JavaScript", "CSS", "HTML"],
-    id: 1,
+    id: 3,
     order: 100,
     mainType: "javascript",
-  },
+  }
 ];
 
-// {
-//   title: "Click Colour",
-//   description:
-//     "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
-//   image: "images/jpgs/hex-color-1.jpg",
-//   imageWebp: "images/webps/hex-color-1.webp",
-//   images: [
-//     {
-//       original: "images/projects/ClickColour/hex-color-1.jpg",
-//       loading: "lazy",
-//       originalAlt: "hex-color-1",
-//     },
-//     {
-//       original: "images/projects/ClickColour/hex-color-2.jpg",
-//       loading: "lazy",
-//       originalAlt: "hex-color-2",
-//     },
-//   ],
-//   tags: ["JavaScript", "CSS", "HTML"],
-//   id: 1,
-//   order: 100,
-//   mainType: "javascript",
-// },

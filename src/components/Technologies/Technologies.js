@@ -18,9 +18,11 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
+      Tenho trabalhado com uma variedade de tecnologias e estou sempre diposto a aprender 
+      explorar novas ferramentas e aprimorar minhas habilidades para enfrentar desafios inovadores
+      e contribuir de maneira significativa para o sucesso de projetos e equipes. 
     </SectionText>
     <List>
       <ListItem>
