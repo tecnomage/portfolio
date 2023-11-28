@@ -42,13 +42,7 @@ const Header = () => {
         </li>
         <li>
           <Link href="#timeLine">
-            <NavLink
-              onClick={() => {
-                document.getElementById("timeLine").scrollIntoView();
-              }}
-            >
-              Timeline
-            </NavLink>
+            <NavLink>Timeline</NavLink>
           </Link>
         </li>
       </Div2>

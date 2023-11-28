@@ -5,17 +5,25 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
+import Photo from "../Photo/Photo";
 import { LeftSection } from "./HeroStyles";
 
-const Hero = () => (
+const Hero = () => {
+
+    const img = {
+    title: 'Photo 1',
+    src: 'images/jpgs/profile.png',
+  }
+  return (
   <>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Bem-vindo <br />
+        
         </SectionTitle>
         <SectionText style={{ paddingBottom: 0 }}>
+        <Photo photo={img}></Photo>
           O propósito do meu portfólio é oferecer uma visão abrangente sobre
           quem eu sou e destacar minhas habilidades.<br/> Fique à vontade para entrar
           em contato e iniciar uma conversa. Estou disponível para discutir
@@ -24,9 +32,14 @@ const Hero = () => (
           <br />
           Sinta-se à vontade para entrar em contato.
         </SectionText>
+      
       </LeftSection>
     </Section>
   </>
-);
+
+  )
+}
+
+
 
 export default Hero;

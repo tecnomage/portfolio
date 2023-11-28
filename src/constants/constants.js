@@ -310,7 +310,7 @@ export const softSkills = [
             originalAlt: "hex-color-2",
           },
         ],
-        tags: ["JavaScript", "CSS", "HTML"],
+       
         id: 11,
         order: 100,
         mainType: "javascript",
@@ -332,7 +332,7 @@ export const softSkills = [
         originalAlt: "hex-color-2",
       },
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+    
     id: 2,
     order: 100,
     mainType: "javascript",
@@ -355,7 +355,7 @@ export const softSkills = [
       },
       
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+
     id: 3,
     order: 100,
     mainType: "javascript",

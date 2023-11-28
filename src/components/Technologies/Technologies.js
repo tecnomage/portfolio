@@ -32,8 +32,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            HTML, CSS, JavaScript, React, Next.js
+            HTML, CSS, Styled Components,JavaScript, React, Angular e Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,20 +43,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Spring,Node and 
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="6rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
+            Spring, Node, Express, Hibernate, JPA, Flask e MongoDB.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -69,7 +55,19 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            WordPress CMS, Jira, Trello, Git.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiOutlineTool size="5.5rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Testes Automatizados</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Jest, JUnit, Spring Boot Test, Mockito.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -78,3 +76,17 @@ const Technologies = () => (
 );
 
 export default Technologies;
+
+
+{/* <ListItem>
+<picture>
+  <DiZend size="6rem" />
+</picture>
+<ListContainer>
+  <ListTitle>UI/UX</ListTitle>
+  <ListParagraph>
+    Experience with <br />
+    PS, XD, Zeplin, Figma, Avocode
+  </ListParagraph>
+</ListContainer>
+</ListItem> */}
