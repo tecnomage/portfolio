@@ -1,15 +1,21 @@
 import React from "react";
-import{PhotoImg} from './PhotoStyles';
+import { ImgContainer, PhotoContainer, PhotoImg } from "./PhotoStyles";
 import { motion } from "framer-motion";
 
 const Photo = ({ photo }) => {
-   console.log(photo);
-  //TODO1 - FAZER A PHOTO FICAR ROUNDED
+ 
   return (
-  
-  <PhotoImg src={photo.src} alt={photo.alt} ></PhotoImg>
-  
+    <motion.div
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: -0.8, opacity: 0 }}
+      transition={{ duration: 7.5 }}
+    >
+      <PhotoImg src={photo.src} alt={photo.alt}></PhotoImg>
+    </motion.div>
   );
 };
 
 export default Photo;
+
+

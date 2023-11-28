@@ -87,7 +87,7 @@ const BackgroundAnimation = () => {
                 <mpath xlinkHref="#path_2" />
               </animateMotion>
             </path>
-            <p>asdsadasdsa</p>
+            
             <ellipse
               cx="476.525"
               cy="363.313"

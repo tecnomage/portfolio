@@ -19,7 +19,6 @@ const Home = () => {
     <Layout>
       <Section grid center>
         <Hero />
-        {/* //TODO colocar uma foto minha aqui */}
         <BgAnimation />
       </Section>
       <AboutMe></AboutMe>
