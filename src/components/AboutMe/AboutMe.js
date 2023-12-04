@@ -8,7 +8,7 @@ import {
 
 const AboutMe = () => {
   return (
-    <Section>
+    <Section id="AboutMe">
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>

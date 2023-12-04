@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import {
   Section,
@@ -13,6 +13,16 @@ const Hero = () => {
     title: "Photo 1",
     src: "images/jpgs/profile.png",
   };
+
+  const [img2, setimg2] = useState({});
+
+  useEffect(() => {
+    setimg2({
+      title: "Photo 2",
+      src: "images/jpgs/profile.png",
+    });
+  }, []);
+
   return (
     <>
       <Section row nopadding>

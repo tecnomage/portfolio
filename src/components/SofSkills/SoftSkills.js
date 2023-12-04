@@ -10,7 +10,7 @@ import { softSkills } from "../../constants/constants";
 
 const SoftSkills = () => {
   return (
-    <Section id="softSkills">
+    <Section id='softSkills'>
       <SectionDivider divider />
       <SectionTitle>Soft Skills</SectionTitle>
       <GridContainer>

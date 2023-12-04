@@ -20,9 +20,10 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      Tenho trabalhado com uma variedade de tecnologias e estou sempre diposto a aprender 
-      explorar novas ferramentas e aprimorar minhas habilidades para enfrentar desafios inovadores
-      e contribuir de maneira significativa para o sucesso de projetos e equipes. 
+      Tenho trabalhado com uma variedade de tecnologias e estou sempre diposto a
+      aprender explorar novas ferramentas e aprimorar minhas habilidades para
+      enfrentar desafios inovadores e contribuir de maneira significativa para o
+      sucesso de projetos e equipes.
     </SectionText>
     <List>
       <ListItem>
@@ -53,10 +54,7 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListTitle>Other Tools</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            WordPress CMS, Jira, Trello, Git.
-          </ListParagraph>
+          <ListParagraph>WordPress CMS, Jira, Trello, Git.</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -66,7 +64,6 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Testes Automatizados</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Jest, JUnit, Spring Boot Test, Mockito.
           </ListParagraph>
         </ListContainer>
@@ -78,15 +75,4 @@ const Technologies = () => (
 export default Technologies;
 
 
-{/* <ListItem>
-<picture>
-  <DiZend size="6rem" />
-</picture>
-<ListContainer>
-  <ListTitle>UI/UX</ListTitle>
-  <ListParagraph>
-    Experience with <br />
-    PS, XD, Zeplin, Figma, Avocode
-  </ListParagraph>
-</ListContainer>
-</ListItem> */}
+

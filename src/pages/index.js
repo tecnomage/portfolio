@@ -13,30 +13,42 @@ import SoftSkills from "../components/SofSkills/SoftSkills";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import AboutMe from "../components/AboutMe/AboutMe";
+import { Link as ScrollLink, Element } from 'react-scroll';
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid center>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <AboutMe></AboutMe>
-      <Section
-        style={{
-          marginTop: "50px",
-        }}
-        id="timeLine"
-      >
+    <div>
+      <Layout>
+        <Section grid center>
+          <Hero />
+          <BgAnimation />
+        </Section>
+        <Element name="AboutMe">
+        <AboutMe></AboutMe>
+        </Element>
         <Timeline />
-      </Section>
-      <SoftSkills />
-      <Technologies />
-    </Layout>
+        <SoftSkills id='softSkills' />
+        <Technologies />
+      </Layout>
+    </div>
+    // <Layout>
+    //   <Section grid center>
+    //     <Hero />
+    //     <BgAnimation />
+    //   </Section>
+    //   <AboutMe></AboutMe>
+    //   <Section
+    //     style={{
+    //       marginTop: "50px",
+    //     }}
+    //     id="timeLine"
+    //   >
+    //     <Timeline />
+    //   </Section>
+    //   <SoftSkills />
+    //   <Technologies />
+    // </Layout>
   );
 };
 
 export default Home;
-
-//TODO1
-//Criar o componente Foto
