@@ -14,28 +14,23 @@ import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import AboutMe from "../components/AboutMe/AboutMe";
 
-export async function getStaticProps() {
-  // Fetch theme from an API
-  const dados = { nome: "teste" };
-
-  // Return the theme as props
-  return {
-    props: {
-      dados,
-    },
-  };
-}
-
-const Home = ({ dados }) => {
+const Home = () => {
   return (
     <Layout>
       <Section grid center>
         <Hero />
         <BgAnimation />
+        <AboutMe />
       </Section>
-      <AboutMe />
-      <Timeline />
-      <SoftSkills id="softSkills" />
+      <Section
+        style={{
+          marginTop: "50px",
+        }}
+        id="timeLine"
+      >
+        <Timeline />
+      </Section>
+      {/* <SoftSkills id="softSkills" /> */}
       <Technologies />
     </Layout>
 
@@ -55,7 +50,7 @@ const Home = ({ dados }) => {
     //   </Section>
     //   <SoftSkills />
     //   <Technologies />
-    // </Layout>
+    // </Layout>*/
   );
 };
 
