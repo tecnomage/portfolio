@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import SocialMedia from "../SocialMedia/SocialMedia.component";
-import { HeaderContainer, Div1, Div2, NavLink } from "./HeaderStyles";
+import { HeaderContainer, Div1, Div2, NavLink, NavLink2 } from "./HeaderStyles";
 import { Link as ScrollLink, Element } from "react-scroll";
 
 const Header = () => {
@@ -37,9 +37,11 @@ const Header = () => {
         </li>
         <li>
           <a href="#softSkills">
-            
-            <NavLink>Soft Skills</NavLink> 
+            <NavLink2>Soft Skills 2</NavLink2>
           </a>
+        </li>
+        <li>
+          <a href="#softSkills">Soft Skill</a>
         </li>
         <li>
           {/* <Link href={route === "/all-projects" ? "/#tech" : "#tech"}> */}

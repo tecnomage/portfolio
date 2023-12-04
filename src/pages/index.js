@@ -13,24 +13,32 @@ import SoftSkills from "../components/SofSkills/SoftSkills";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import AboutMe from "../components/AboutMe/AboutMe";
-import { Link as ScrollLink, Element } from 'react-scroll';
 
-const Home = () => {
+export async function getStaticProps() {
+  // Fetch theme from an API
+  const dados = { nome: "teste" };
+
+  // Return the theme as props
+  return {
+    props: {
+      dados,
+    },
+  };
+}
+
+const Home = ({ dados }) => {
   return (
-    <div>
-      <Layout>
-        <Section grid center>
-          <Hero />
-          <BgAnimation />
-        </Section>
-        <Element name="AboutMe">
-        <AboutMe></AboutMe>
-        </Element>
-        <Timeline />
-        <SoftSkills id='softSkills' />
-        <Technologies />
-      </Layout>
-    </div>
+    <Layout>
+      <Section grid center>
+        <Hero />
+        <BgAnimation />
+      </Section>
+      <AboutMe />
+      <Timeline />
+      <SoftSkills id="softSkills" />
+      <Technologies />
+    </Layout>
+
     // <Layout>
     //   <Section grid center>
     //     <Hero />
