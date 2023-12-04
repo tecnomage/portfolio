@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import SocialMedia from "../SocialMedia/SocialMedia.component";
-import { HeaderContainer, Div1, Div2, NavLink, NavLink2 } from "./HeaderStyles";
-import { Link as ScrollLink, Element } from "react-scroll";
+import { HeaderContainer, Div1, Div2, NavLink } from "./HeaderStyles";
+import { Link as ScrollLink, } from "react-scroll";
 
 const Header = () => {
   const { route } = useRouter();
@@ -27,19 +27,11 @@ const Header = () => {
       )}
       <Div2>
         <li>
-          {/* <Link href={route === "/all-projects" ? "/#about" : "#about"}> */}
-          {/* <Link href="#about">
-            <NavLink>Sobre </NavLink>
-          </Link> */}
-          <ScrollLink to="AboutMe" smooth={true} duration={500}>
+            <ScrollLink to="AboutMe" smooth={true} duration={500}>
             <NavLink>Sobre</NavLink>
           </ScrollLink>
         </li>
-        <li>
-          <a href="#softSkills">
-            <NavLink2>Soft Skills 2</NavLink2>
-          </a>
-        </li>
+
         <li>
           <a href="#softSkills">Soft Skill</a>
         </li>
