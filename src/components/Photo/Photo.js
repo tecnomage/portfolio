@@ -20,7 +20,7 @@ export function getStaticProps() {
   return {
     props: {
       photo,
-      teste
+      teste,
     },
   };
 }
@@ -29,11 +29,6 @@ const Photo = ({ photo, teste }) => {
   useEffect(() => {
     // Add Framer Motion animations here after the initial render
     // Example:
-    console.log(photo);
-    console.log(teste);
-    console.log(ImgContainer);
-    
-    
   }, []);
 
   return (

@@ -74,10 +74,7 @@ const Timeline = () => {
         marginTop: "100px",
       }}
     >
-      teste
       <Section>
-        
-
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
           <>
             {TimeLineData.map((item, index) => (
