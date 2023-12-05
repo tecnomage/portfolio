@@ -22,35 +22,17 @@ const Home = () => {
         <BgAnimation />
         <AboutMe />
       </Section>
-      {/* <Section
+     * <Section
         style={{
           marginTop: "50px",
         }}
         id="timeLine"
-      > */}
-        <Timeline />
-      {/* </Section> */}
-      {/* <SoftSkills id="softSkills" /> */}
+      > 
+      <Timeline />
+      </Section>  
+       <SoftSkills id="softSkills" />
       <Technologies />
     </Layout>
-
-    // <Layout>
-    //   <Section grid center>
-    //     <Hero />
-    //     <BgAnimation />
-    //   </Section>
-    //   <AboutMe></AboutMe>
-    //   <Section
-    //     style={{
-    //       marginTop: "50px",
-    //     }}
-    //     id="timeLine"
-    //   >
-    //     <Timeline />
-    //   </Section>
-    //   <SoftSkills />
-    //   <Technologies />
-    // </Layout>*/
   );
 };
 

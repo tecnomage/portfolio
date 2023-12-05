@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import SocialMedia from "../SocialMedia/SocialMedia.component";
 import { HeaderContainer, Div1, Div2, NavLink } from "./HeaderStyles";
-import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   const { route } = useRouter();
@@ -27,24 +26,23 @@ const Header = () => {
       )}
       <Div2>
         <li>
-          <ScrollLink to="AboutMe" smooth={true} duration={500}>
+          <Link href="#AboutMe">
             <NavLink>Sobre</NavLink>
-          </ScrollLink>
-        </li>
-
-        <li>
-          <NavLink href="#softSkills">Soft Skill</NavLink>
-        </li>
-        <li>
-          <Link href={"#tech"}>
-            Tech
-            {/* <NavLink>Tecnologias</NavLink> */}
           </Link>
         </li>
         <li>
-          <Link href={"#timeLine"}>
-            TImeline
-            <NavLink>Timeline</NavLink>
+          <Link href="#softSkills">
+            <NavLink>SoftSkills</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#tech">
+            <NavLink>Tecnologias</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#timeLine">
+            <NavLink>TimeLine</NavLink>
           </Link>
         </li>
       </Div2>
