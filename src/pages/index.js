@@ -22,14 +22,14 @@ const Home = () => {
         <BgAnimation />
         <AboutMe />
       </Section>
-      <Section
+      {/* <Section
         style={{
           marginTop: "50px",
         }}
         id="timeLine"
-      >
+      > */}
         <Timeline />
-      </Section>
+      {/* </Section> */}
       {/* <SoftSkills id="softSkills" /> */}
       <Technologies />
     </Layout>

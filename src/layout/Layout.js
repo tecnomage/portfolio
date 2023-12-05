@@ -1,11 +1,11 @@
 import React from "react";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { Container } from "./LayoutStyles";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-import {MotionMain} from  "../../src/library/motion.div"
+
 
 
 const variants = {
@@ -17,18 +17,18 @@ const variants = {
 export const Layout = ({ children }) => {
   return (
     <Container>
-       <Header />
+       {/* <Header /> */}
       
-      <MotionMain
+      <motion.main
          //!FIXME se descomentar nao aparece
-        // initial="hidden"
+        initial="hidden"
         animate='enter'
         exit="exit"
         variants={variants}
         transition={{ type: 'linear', duration: 0.8 }}
       >
         {children}
-      </MotionMain>
+      </motion.main>
       <Footer />
       <ScrollToTop /> 
         

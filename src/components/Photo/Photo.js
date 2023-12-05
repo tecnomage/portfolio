@@ -1,10 +1,8 @@
 import React from "react";
 import { useEffect, useState, Suspense } from "react";
 import { ImgContainer, PhotoImg } from "./PhotoStyles";
-import * as motion from "../../library/motion.div";
+import { motion } from "framer-motion";
 
-// import { motion } from "framer-motion";
-// import { MotionDiv } from "../../library/motion.div";
 
 export function getStaticProps() {
   const photo = {
@@ -25,7 +23,7 @@ export function getStaticProps() {
   };
 }
 
-const Photo = ({ photo, teste }) => {
+const Photo = ({ photo }) => {
   useEffect(() => {
     // Add Framer Motion animations here after the initial render
     // Example:
@@ -33,7 +31,7 @@ const Photo = ({ photo, teste }) => {
 
   return (
     <div>
-      <motion
+      <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.8, opacity: 0 }}
@@ -49,7 +47,7 @@ const Photo = ({ photo, teste }) => {
             transition={{ duration: 0.5 }}
           ></PhotoImg>
         </ImgContainer>
-      </motion>
+      </motion.div>
     </div>
   );
 };

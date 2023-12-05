@@ -31,19 +31,19 @@ const Header = () => {
             <NavLink>Sobre</NavLink>
           </ScrollLink>
         </li>
-       
+
         <li>
-          <Link href="#softSkills">
-            <NavLink href="#softSkills">Soft Skill</NavLink>
-          </Link>
+          <NavLink href="#softSkills">Soft Skill</NavLink>
         </li>
         <li>
           <Link href={"#tech"}>
-            <NavLink>Tecnologias</NavLink>
+            Tech
+            {/* <NavLink>Tecnologias</NavLink> */}
           </Link>
         </li>
         <li>
-          <Link href="#timeLine">
+          <Link href={"#timeLine"}>
+            TImeline
             <NavLink>Timeline</NavLink>
           </Link>
         </li>
