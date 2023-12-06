@@ -32,7 +32,7 @@ const Header = () => {
         </li>
         <li>
           <Link href="#softSkills">
-            <NavLink>SoftSkills</NavLink>
+            <NavLink>Soft Skills</NavLink>
           </Link>
         </li>
         <li>
@@ -42,7 +42,7 @@ const Header = () => {
         </li>
         <li>
           <Link href="#timeLine">
-            <NavLink>TimeLine</NavLink>
+            <NavLink>Timeline</NavLink>
           </Link>
         </li>
       </Div2>
