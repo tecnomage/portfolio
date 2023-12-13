@@ -20,9 +20,9 @@ const Home = () => {
       <Section grid center>
         <Hero />
         <BgAnimation />
-        <AboutMe />
       </Section>
-     * <Section
+        <AboutMe />
+      <Section
         style={{
           marginTop: "50px",
         }}
