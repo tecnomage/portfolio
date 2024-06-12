@@ -57,7 +57,7 @@ const SoftSkillCard = ({ item }) => {
         <Button
           type="button"
           aria-label="Open Project Gallery in a modal window"
-          onClick={openModal}
+          // onClick={openModal}
         >
           <BsPlusCircleFill />
         </Button>
