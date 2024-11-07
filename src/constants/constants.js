@@ -275,8 +275,8 @@ export const TimeLineData = [
     text: "Trabalhei como Desenvolvedor Front-End no Tribunal de Justiça do Estado do Acre",
   },
   {
-    year: 2013,
-    text: "Transitei para o cargo de Analista de Sistemas e Suporte no Tribunal Regional do Trabalho da 9ª Região",
+    year: 2012,
+    text: "Assumi o cargo de Desenvolvedor FullStack no Tribunal de Justiça do Estado do Acre",
   },
   {
     year: 2019,

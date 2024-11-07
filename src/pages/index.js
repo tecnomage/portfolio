@@ -28,7 +28,7 @@ const Home = () => {
         }}
         id="timeLine"
       > 
-      <Timeline />
+      {/* <Timeline /> */}
       </Section>  
        <SoftSkills id="softSkills" />
       <Technologies />

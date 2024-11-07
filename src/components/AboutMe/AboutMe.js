@@ -12,8 +12,8 @@ const AboutMe = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Olá, sou um desenvolvedor Full Stack apaixonado por tecnologia, com mais
-        de 8 anos de experiência em programação.Durante minha carreira, tive a
+        Olá, sou um desenvolvedor apaixonado por tecnologia, com mais
+        de 10 anos de experiência em programação.Durante minha carreira, tive a
         oportunidade de trabalhar em uma variedade de projetos desafiadores e
         inovadores, que vão desde aplicações web até soluções de software
         complexas.
@@ -32,10 +32,10 @@ const AboutMe = () => {
         desafios. Portanto, estou atualmente em busca de novas oportunidades
         onde possa aplicar minhas habilidades existentes e continuar crescendo
         como profissional na área de TI. Se sua equipe precisa de um
-        desenvolvedor Full Stack experiente, dedicado e apaixonado por resolver
+        desenvolvedor experiente, dedicado e apaixonado por resolver
         problemas e criar soluções eficientes, adoraria ter a oportunidade de
         discutir como posso contribuir para seus projetos. Estou ansioso para
-        trazer minha experiência, compromisso e paixão para sua empresa.
+        trazer minha experiência e compromisso para sua empresa.
       </SectionText>
     </Section>
   );

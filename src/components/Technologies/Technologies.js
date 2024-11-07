@@ -28,7 +28,16 @@ const Technologies = () => (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="6rem" />
+          <DiReact size="6rem" onMouseOver={(e) => {
+           e.currentTarget.style.color = '#006BB8';
+           e.target.style.transition = '0.3s';
+           e.currentTarget.style.transform = 'scale(1.2)';
+          }}
+           onMouseOut={(e) => {
+            e.currentTarget.style.color = '';
+            e.target.style.transition = '0.5s';
+            e.currentTarget.style.transform = 'scale(1.0)';
+            }} />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
@@ -39,7 +48,17 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="6rem" />
+          <DiFirebase size="6rem" 
+          onMouseOver={(e) => {
+            e.currentTarget.style.color = '#006BB8'
+            e.target.style.transition = '0.3s';
+            e.currentTarget.style.transform = 'scale(1.2)';
+          }} 
+          onMouseOut={(e) => {
+            e.currentTarget.style.color = ''
+            e.target.style.transition = '0.5s';
+            e.currentTarget.style.transform = 'scale(1.0)';
+            }} />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
@@ -50,7 +69,19 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <AiOutlineTool size="5.5rem" />
+          <AiOutlineTool
+           size="5.5rem" 
+           onMouseOver={(e) => {
+            e.currentTarget.style.color = '#006BB8'
+            e.target.style.transition = '0.3s';
+            e.currentTarget.style.transform = 'scale(1.2)';
+          }} 
+          onMouseOut={(e) => {
+            e.currentTarget.style.color = ''
+            e.target.style.transition = '0.5s';
+            e.currentTarget.style.transform = 'scale(1.0)';
+            }}
+           />
         </picture>
         <ListContainer>
           <ListTitle>Other Tools</ListTitle>
@@ -59,13 +90,23 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <AiOutlineTool size="5.5rem" />
+          <AiOutlineTool size="5.5rem"
+          onMouseOver={(e) => {
+            e.currentTarget.style.color = '#006BB8'
+            e.target.style.transition = '0.3s';
+            e.currentTarget.style.transform = 'scale(1.2)';
+          }} 
+          onMouseOut={(e) => {
+            e.currentTarget.style.color = ''
+            e.target.style.transition = '0.5s';
+            e.currentTarget.style.transform = 'scale(1.0)';
+            }}
+          
+          />
         </picture>
         <ListContainer>
           <ListTitle>Testes Automatizados</ListTitle>
-          <ListParagraph>
-            Jest, JUnit, Spring Boot Test, Mockito.
-          </ListParagraph>
+          <ListParagraph>Jest, JUnit, Spring Boot Test, Mockito.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
@@ -73,6 +114,3 @@ const Technologies = () => (
 );
 
 export default Technologies;
-
-
-
