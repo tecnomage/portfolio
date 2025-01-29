@@ -22,7 +22,7 @@ export const Layout = ({ children }) => {
         animate="enter"
         exit="exit"
         variants={variants}
-        transition={{ type: "linear", duration: 0.8 }}
+        transition={{ type: "linear", duration: 1.5 }}
       >
         {children}
       </motion.main>

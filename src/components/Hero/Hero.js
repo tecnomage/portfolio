@@ -30,7 +30,7 @@ const Hero = () => {
           <SectionTitle main center>
             Bem-vindo <br />
           </SectionTitle>
-
+           {/* !TODO REACTIVATE */}
           <Photo photo={img}></Photo>
 
           <SectionText style={{ paddingBottom: 0 }}>
