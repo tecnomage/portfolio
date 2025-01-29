@@ -41,11 +41,11 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link 
+          {/* <Link 
           href="#timeLine">
             <NavLink
             >Timelines</NavLink>
-          </Link>
+          </Link> */}
         </li>
       </Div2>
       <SocialMedia />
